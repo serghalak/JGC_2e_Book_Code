@@ -6,8 +6,11 @@ import java.util.ArrayList;
 public class Program_2 {
 	public static void main(String[] args)  {
 		List<Integer> ints = new ArrayList<>();
-		List<? extends Number> nums = ints;  //  now legal 
-		nums.add(3.14);                      //  can't be allowed
-
+		List<? extends Number> nums = ints;  //  now legal
+		List<?> n = ints;
+		//n.add(3);  //  can't be allowed
+		//nums.add(3.14);                      //  can't be allowed
+		//nums.add(3);	//  can't be allowed
+		nums.add(null);
 	}
 }

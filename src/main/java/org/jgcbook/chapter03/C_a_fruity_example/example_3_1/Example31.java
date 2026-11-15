@@ -42,7 +42,7 @@ class Test {
     List<Orange> oranges = Arrays.asList(o3, o4);
     assert Collections.max(oranges).equals(o4);
     List<Fruit> mixed = List.of(a1, o3);
-    Collections.max(mixed);       // compile-time error
+    //Collections.max(mixed);       // compile-time error
   }
 
 }

@@ -17,7 +17,7 @@ public class Program_5 {
 		ints.add(2);
 		List<? extends Number> nums = ints;
 		double dbl = sum(nums);     // ok
-		nums.add(3.14);             // compile-time error
+		//nums.add(3.14);             // compile-time error
 
 	}
 }

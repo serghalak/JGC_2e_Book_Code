@@ -11,13 +11,13 @@ public class Program_6 {
 	  return s;
 	}
 	public static void main(String[] args)  {
-		List<Object> objs = new ArrayList<>();
-		objs.add(1);
-		objs.add("two");
-		List<? super Integer> ints = objs;
-		ints.add(3);             // ok                        
-		double dbl = sum(ints);  // compile-time error        
-		ints.add("three");       // compile-time error        
+//		List<Object> objs = new ArrayList<>();
+//		objs.add(1);
+//		objs.add("two");
+//		List<? super Integer> ints = objs;
+//		ints.add(3);             // ok
+//		double dbl = sum(ints);  // compile-time error
+//		ints.add("three");       // compile-time error
 
 	}
 }

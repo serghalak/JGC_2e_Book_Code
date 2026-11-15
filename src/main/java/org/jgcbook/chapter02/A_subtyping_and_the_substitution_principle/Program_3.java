@@ -7,7 +7,7 @@ public class Program_3 {
 	public static void main(String[] args)  {
 		List<Number> nums = new ArrayList<>();
 		nums.add(3.14);
-		List<Integer> ints = nums;        //  can't be allowed 
+		//List<Integer> ints = nums;        //  can't be allowed
 
 	}
 }

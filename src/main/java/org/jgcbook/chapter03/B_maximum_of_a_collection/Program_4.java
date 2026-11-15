@@ -7,7 +7,7 @@ import java.util.List;
 public class Program_4 {
 	public static void main(String[] args)  {
 		List<Number> nums = Arrays.asList(0, 1, 2, 3.14);
-		assert Collections.max(nums) == 3.14; // compile-time error
+		//assert Collections.max(nums) == 3.14; // compile-time error
 
 	}
 }
