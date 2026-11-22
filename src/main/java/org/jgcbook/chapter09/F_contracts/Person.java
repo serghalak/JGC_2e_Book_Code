@@ -21,8 +21,11 @@ import java.util.HashSet;
 	public static void main(String[] args)  {
 		    Set<Person> people = new HashSet<>();
 		    Person alice = new Person("Alice");
+            System.out.println(alice.hashCode());
 		    people.add(alice);
 		    alice.setName("Bob");
+            System.out.println(alice.hashCode());
+            System.out.println(people.contains(new Person("Alice")));
 		    assert ! people.contains(new Person("Alice"));
 		    assert ! people.contains(new Person("Bob"));
 
